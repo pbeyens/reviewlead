@@ -1,0 +1,90 @@
+#reviews input {
+	float:auto;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #aacfe4;
+	width:200px;
+	margin:2px 0 20px 10px;
+}
+
+#reviews td.button {
+	/*clear:both;*/
+	display:block;
+	height:24px;
+
+	background:#666666 url(img/button.png) no-repeat;
+	/*background:#ffffff;*/
+	/*text-align:center;*/
+	border:0;
+	line-height:24px;
+	color:#aaaaaa;
+
+}
+
+#txtbutton button {
+	/*clear:both;*/
+	display:block;
+	height:24px;
+
+	background:#666666 url(img/button.png) no-repeat;
+	/*background:#ffffff;*/
+	/*text-align:center;*/
+	border:0;
+	line-height:24px;
+	color:#aaaaaa;
+}
+
+#txtbutton button:hover {
+	background:#f0f0f0;
+	/*clear:both;*/
+	display:block;
+	height:24px;
+	background:blue;
+	/*text-align:center;*/
+	border:0;
+	line-height:24px;
+	color:#eeeeee;
+}
+
+.txtbutbld {
+	display:block;
+	font-weight:bold;
+}
+.txtbutbld:hover {
+	background:#f0f0f0;
+}
+
+.introlink a
+{
+	float: left;
+	width: 25%;
+	display: inline;   
+   background-color:#eeeeff;
+   padding: 10px 10px 100px 10px;
+   margin: 0px 2.5% 20px 2.5%;
+	color: black;
+	text-decoration: underline;
+}
+.introlink a:link
+{
+	color: black;
+}
+.introlink a:hover
+{
+	color: #bbbbff;   
+	background-color: #eeeeff;
+}
+
+#delete {
+	clear:both;
+	/*margin-left:150px;*/
+	/*width:125px;*/
+	height:24px;
+	background:url('images/delete.png') no-repeat;
+	text-align:center;
+	line-height:31px;
+	/*color:#FFFFFF;*/
+	font-size:11px;
+	font-weight:bold;
+}
+

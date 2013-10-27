@@ -1,0 +1,323 @@
+/**********
+ * COMMON *
+ *********/
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p, h1, form, button, img {
+	border:0; 
+	margin:0; 
+	padding:0;
+}
+
+/**********
+ * CENTER *
+ *********/
+#center {
+	margin: auto;
+	text-align: left;
+	width: 90%;
+}
+
+/**********
+ * HEADER *
+ *********/
+#header	{
+	display: block;
+	clear: both;
+	background-color: #F3F2ED;
+	min-height: 128px;
+	margin: 0 0 5px 0;
+}
+
+#header div#logo {
+	float: left;
+}
+
+#header div.menuitem {
+	float: right;
+	margin: 10px 10px 10px 10px;
+	border: 0px;
+}
+
+#header h1 {
+	color:#551A8B;
+	margin: 10px 10px 10px 10px;
+}
+
+#header p {
+	font-weight: bold;
+	font-size: 14px;
+	margin:0 0 2px 0; 
+}
+
+#header p.error {
+	color: #d00000;
+}
+
+#header p.info {
+	color: #00b000;
+}
+
+/***********
+ * CONTENT *
+ **********/
+#content {
+	display: block;
+	clear: both;
+	float: left;
+	width: 75%;
+}
+/*
+#content h2 {font: serif; font-style: italic; font-size: 14px; padding-left:20px}
+#content p  {line-height:1.4}
+*/
+
+/*********
+ * TABLE *
+ ********/
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 5px;
+}
+
+table tr.alt {
+	color: #000000;
+	background-color: #ffe4cc;
+}
+
+table td, table th {
+	border: 1px solid #FD7601;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+table th {
+	background-color: #FD7601;
+	color: #ffffff;
+	font-size: 16px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+
+table td.delete {
+	color: #000000;
+	background-color: #ffffff;
+	border: 0px;
+}
+
+table img {
+	float: left;
+	margin: 2px 2px 2px 2px;
+}
+
+table a {
+	text-decoration: none;
+	display: block;
+	margin-left: 3px;
+	color: #444;
+}
+
+table#hover tr:hover {
+	background-color:#feba80;
+}
+
+/***********
+ * SIDEBAR *
+ **********/
+#sidebar {
+	background: #ebf4fb;
+	clear: right;
+	float: right;
+	border: solid 1px #aacfe4;
+	width: 24%;
+	margin-bottom: 5px;
+}
+
+#sidebar div {
+	display: block;
+	clear: both;
+	margin: 0 0 0 5px;
+}
+
+#sidebar label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#sidebar input {
+	width: 94%;
+	font-size: 14px;
+	border: solid 1px #aacfe4;
+	height: 22px;
+	margin-bottom: 5px;
+}
+
+#sidebar hr {
+	margin:10px 0 0 0;
+	border: 0px;
+}
+
+#sidebar textarea {
+	float:auto;
+	margin-bottom: 5px;
+	border: solid 1px #aacfe4;
+	width: 94%;
+}
+
+/*
+#sidebar ul    {margin:15px 0; padding:0; list-style-type:none;}
+#sidebar li    {margin-bottom:5px;}
+#sidebar p     {margin:0px;padding:5px 10px; }
+*/
+
+/*********
+ * LOGIN *
+ ********/
+#login {
+	margin: 50px auto;
+	padding: 10px;
+	width: 360px;
+	border: solid 1px #b7ddf2;
+	background: #ebf4fb;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#login div {
+	display: block;
+	clear: both;
+}
+
+#login label{
+	float: left;
+	width: 140px;
+	text-align: right;
+	margin: 0 5px 20px 0;
+	padding: 4px 0 4px 0;
+}
+
+#login input {
+	float: auto;
+	width: 200px;
+	border: solid 1px #aacfe4;
+	margin: 0 0 20px 0px;
+	padding: 4px 0 4px 0px;
+	font-size: 14px;
+}
+
+#login div.error {
+	text-align: center;
+	font-weight: normal;
+	color: #d00000;
+}
+
+#login div.info {
+	text-align: center;
+	font-weight: normal;
+	color: #00b000;
+}
+
+#login div.version {
+	text-align: right;
+	font-size: 11px;
+	color: #cccccc;
+	margin: 0 0 0 0;
+}
+
+/************
+ * PREVNEXT *
+ ***********/
+#prevnext {
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+#prevnext img {
+	width: 24px;
+	height: 24px;
+	border: 0;
+	padding: 0;
+	margin: 3;
+}
+
+#prevnext a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: white;
+}
+
+/**********
+ * FOOTER *
+ *********/
+#footer {
+	clear: both;
+	display: block;
+	background: #cccccc;
+	width: 100%;
+	/*margin: 30px 0 0 0;*/
+}
+#footer p {
+	color: #666;
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+
+/***********
+ * FILEREMARK *
+ **********/
+#fileremark {
+	background: #ebf4fb;
+	float: left;
+	border: solid 1px #aacfe4;
+	width: 60%;
+	margin-top: 5px;
+}
+
+#fileremark div {
+	margin: 0 0 0 5px;
+}
+
+#fileremark label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#fileremark input {
+	float:left;
+	font-size: 14px;
+	border: solid 1px #aacfe4;
+	height: 22px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+#fileremark textarea {
+	float:left;
+	margin-bottom: 5px;
+	border: solid 1px #aacfe4;
+	width: 80%;
+	min-height: 50px;
+}
+
+/***********
+ * TOOLBAR *
+ **********/
+#toolbar {  
+	background-color:#FD7601;
+	text-align: center;
+	height:25px;
+	position:fixed;  
+	bottom:0px;
+	width:100%;
+	padding-bottom: 5px;
+}
+

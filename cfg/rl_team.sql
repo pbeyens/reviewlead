@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `rl_team` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` varchar(255) DEFAULT NULL,
+	`password` varchar(255) DEFAULT NULL,
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
