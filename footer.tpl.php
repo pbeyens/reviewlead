@@ -12,5 +12,5 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 */
 ?>
 <div id="footer">
-	<p>&copy; 2014 <a href="http://www.rtos.be">http://www.rtos.be</a></p>
+	<p><a href="http://www.rtos.be">http://www.rtos.be</a></p>
 </div>
