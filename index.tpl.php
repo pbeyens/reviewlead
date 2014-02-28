@@ -39,7 +39,7 @@ $this->display("header.tpl.php");
 	</form>
 	<?php if(strlen($this->info)) echo "<div class=\"info\">".htmlentities($this->info)."</div>"; ?>
 	<?php if(strlen($this->error)) echo "<div class=\"error\">Error: " . htmlentities($this->error)."</div>"; ?>
-	<div class="version">v1.3.1</div>
+	<div class="version">v2.0.0</div>
 </div>
 
 </body>
