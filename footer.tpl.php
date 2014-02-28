@@ -12,5 +12,5 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 */
 ?>
 <div id="footer">
-	<p>&copy; 2011-2012 Bytelead (<a href="mailto:sales@bytelead.be">sales@bytelead.be)</a></p>
+	<p>&copy; 2014 <a href="http://www.rtos.be">http://www.rtos.be</a></p>
 </div>
